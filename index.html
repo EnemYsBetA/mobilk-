@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -9,23 +10,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Neucha&family=Press+Start+2P&display=swap" rel="stylesheet">    
     <title>Botiki</title>
     <link rel="shortcut icon" href="icon.ico" type="image/x-icon" />
-    <link rel="icon" href="icon.ico" type="image/x-icon" />    
+    <link rel="icon" href="icon.ico" type="image/x-icon" />
 </head>
 
 <body>
-
+<div class="content">
 <!--Header-->
     <div class="header">
     <div class="ellipse"></div>
     <img id="logo" src="Logo.png">
+
+    <div class="humberger-menu">
+        <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
     <div class="menu">
         <a id="a_f" href="#main">Главная</a>
         <a id="a_f" href="#about_us">О нас</a>
         <a id="a_f" href="#games">Игры</a>
         <a id="a_f" href="#contacts">Контакты</a>
+        <div class="eb_but">
+        <button class="glow-on-hover" type="button"><a href="">Присоединиться</a></button>
+    </div>        
     </div>
-    <div class="eb_but">
-        <button class="glow-on-hover" type="button"><a href="#">Присоединиться</a></button>
     </div>
 </div>
 
@@ -210,5 +218,6 @@
     <div class="ellipse5"></div>
 
 </footer>
+</div>
 </body>
 </html>
